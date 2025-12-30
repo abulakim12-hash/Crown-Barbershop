@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Crown Barbershop in Garland, TX — premium fades, tapers, beard trims, and kid-friendly service. 5.0 ★ from 508 reviews." />
+  <title>Crown Barbershop | Garland, TX</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Top Notice -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="dot"></span>
+        <span><strong>5.0★</strong> · <strong>508</strong> Google reviews</span>
+      </div>
+      <div class="topbar__right">
+        <a class="link" href="#reviews">Read Reviews</a>
+        <span class="sep">•</span>
+        <a class="link" href="#location">Get Directions</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Crown Barbershop home">
+        <span class="brand__mark" aria-hidden="true">♛</span>
+        <span class="brand__text">
+          <span class="brand__name">Crown Barbershop</span>
+          <span class="brand__tag">Garland, TX</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#location">Location</a>
+      </nav>
+
+      <div class="header__cta">
+        <!-- Replace with your real booking link -->
+        <a class="btn btn--ghost" href="#location">Call / Directions</a>
+        <a class="btn" href="#book" id="bookNowBtn">Book Now</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile" id="mobileMenu" hidden>
+      <div class="container mobile__inner">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#location">Location</a>
+        <a class="btn" href="#book">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <div class="badge">
+            <span class="badge__star">★</span>
+            <span>Rated <strong>5.0</strong> from <strong>508</strong> Google reviews</span>
+          </div>
+
+          <h1>Sharp fades. Clean lines. <span class="accent">Crown-level</span> service.</h1>
+          <p class="lead">
+            Walk-ins welcome. Kid-friendly. Beard + fade specialists.
+            Come see why Garland keeps coming back.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="#book">Book Appointment</a>
+            <a class="btn btn--ghost" href="#reviews">See Reviews</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__num">5.0★</div>
+              <div class="stat__label">Google rating</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">508</div>
+              <div class="stat__label">Reviews</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">Family</div>
+              <div class="stat__label">Friendly vibe</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media" aria-label="Barbershop showcase">
+          <!-- Replace these placeholders with real shop photos -->
+          <div class="mediaCard mediaCard--big">
+            <div class="mediaCard__top">
+              <span class="pill">Clean • Professional • Welcoming</span>
+            </div>
+            <div class="mediaCard__center">
+              <div class="mediaCard__logo">♛</div>
+              <div class="mediaCard__title">Crown Barbershop</div>
+              <div class="mediaCard__sub">Garland, Texas</div>
+            </div>
+            <div class="mediaCard__bottom">
+              <div class="mini">
+                <div class="mini__icon">✂️</div>
+                <div class="mini__text">
+                  <div class="mini__label">Popular</div>
+                  <div class="mini__value">Fade • Beard • Kids</div>
+                </div>
+              </div>
+              <div class="mini">
+                <div class="mini__icon">⏱️</div>
+                <div class="mini__text">
+                  <div class="mini__label">Walk-ins</div>
+                  <div class="mini__value">Quick service</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mediaRow">
+            <div class="mediaCard mediaCard--small">
+              <div class="quote">
+                <div class="quote__stars">★★★★★</div>
+                <div class="quote__text">“Walked in and sat down immediately… solid cut for a good price!”</div>
+                <div class="quote__name">— Matthew H.</div>
+              </div>
+            </div>
+            <div class="mediaCard mediaCard--small">
+              <div class="quote">
+                <div class="quote__stars">★★★★★</div>
+                <div class="quote__text">“Clean, welcoming, great vibe… sharp fade, clean edges.”</div>
+                <div class="quote__name">— Abel D.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="trust">
+      <div class="container trust__inner">
+        <div class="trust__item">
+          <div class="trust__icon">🧼</div>
+          <div class="trust__text">
+            <div class="trust__title">Clean shop</div>
+            <div class="trust__sub">Professional environment</div>
+          </div>
+        </div>
+        <div class="trust__item">
+          <div class="trust__icon">💈</div>
+          <div class="trust__text">
+            <div class="trust__title">Skilled barbers</div>
+            <div class="trust__sub">Precision fades & lineups</div>
+          </div>
+        </div>
+        <div class="trust__item">
+          <div class="trust__icon">👨‍👩‍👧‍👦</div>
+          <div class="trust__text">
+            <div class="trust__title">Family-friendly</div>
+            <div class="trust__sub">Patient with kids</div>
+          </div>
+        </div>
+        <div class="trust__item">
+          <div class="trust__icon">⚡</div>
+          <div class="trust__text">
+            <div class="trust__title">Walk-ins welcome</div>
+            <div class="trust__sub">Fast, consistent service</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <h2>Services</h2>
+          <p>Clean work, attention to detail, and a vibe that makes you feel at home.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">✂️</div>
+            <h3>Fade / Taper</h3>
+            <p>Sharp fades with smooth blending — built to match your style.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🧔</div>
+            <h3>Beard Trim</h3>
+            <p>Clean shape-up and seamless blend for a polished look.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">👦</div>
+            <h3>Kids Cuts</h3>
+            <p>Patient, friendly service — parents love the experience.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🧼</div>
+            <h3>Lineup & Detail</h3>
+            <p>Crisp edges, clean finish, and consistent results.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section section--alt" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <h2>What people are saying</h2>
+          <p>Real review highlights pulled from your Google review summary.</p>
+        </div>
+
+        <div class="reviewHeader">
+          <div class="reviewScore">
+            <div class="reviewScore__big">5.0</div>
+            <div class="reviewScore__stars" aria-label="5 star rating">★★★★★</div>
+            <div class="reviewScore__meta">Based on <strong>508</strong> Google reviews</div>
+          </div>
+
+          <div class="reviewTags" aria-label="Review tags">
+            <span class="tag">Skilled</span>
+            <span class="tag">Attention to detail</span>
+            <span class="tag">Great vibe</span>
+            <span class="tag">Good price</span>
+            <span class="tag">Fast service</span>
+          </div>
+        </div>
+
+        <div class="slider" aria-label="Reviews slider">
+          <button class="slider__btn" id="prevReview" aria-label="Previous review">‹</button>
+
+          <div class="slider__track" id="reviewTrack">
+            <!-- Review cards (your text) -->
+            <article class="review">
+              <div class="review__top">
+                <div class="review__stars">★★★★★</div>
+                <div class="review__meta">Ameerah Abdulshakur · a week ago · $20–30</div>
+              </div>
+              <p class="review__text">
+                “This place was by far the best I’ve been to since we moved to Dallas! They got my boys in quickly and were very patient!”
+              </p>
+            </article>
+
+            <article class="review">
+              <div class="review__top">
+                <div class="review__stars">★★★★★</div>
+                <div class="review__meta">Matthew Holland · 2 weeks ago · $30–40</div>
+              </div>
+              <p class="review__text">
+                “Walked in and sat down immediately. Jay was great… nice fade… trimmed up my beard for a seamless look. Solid cut for a good price!”
+              </p>
+              <p class="review__sub">Services: Beard maintenance, Fade cut, Beard trim</p>
+            </article>
+
+            <article class="review">
+              <div class="review__top">
+                <div class="review__stars">★★★★★</div>
+                <div class="review__meta">Noel Michael · a month ago</div>
+              </div>
+              <p class="review__text">
+                “Bosh is a great barber. Takes his time, listens, and gives a clean, sharp cut… super friendly and chill. The shop is clean and welcoming.”
+              </p>
+            </article>
+
+            <article class="review">
+              <div class="review__top">
+                <div class="review__stars">★★★★★</div>
+                <div class="review__meta">Abel Demisse · 2 months ago · $30–40</div>
+              </div>
+              <p class="review__text">
+                “Amazing experience… clean, welcoming, great vibe… barber took time to understand the style I wanted and nailed it — sharp fade, clean edges.”
+              </p>
+            </article>
+
+            <article class="review">
+              <div class="review__top">
+                <div class="review__stars">★★★★★</div>
+                <div class="review__meta">Jess · 4 weeks ago</div>
+              </div>
+              <p class="review__text">
+                “Found the shop through Yelp… customer service from everyone was great. Mimi cut both my boys’ hair and they loved it.”
+              </p>
+            </article>
+
+            <article class="review">
+              <div class="review__top">
+                <div class="review__stars">★★★★★</div>
+                <div class="review__meta">Nathan Mehari · 5 months ago · $20–30</div>
+              </div>
+              <p class="review__text">
+                “Crown really different… barbers take their time to get you right, fade always clean. You can tell they care about details.”
+              </p>
+            </article>
+
+            <article class="review">
+              <div class="review__top">
+                <div class="review__stars">★★★★★</div>
+                <div class="review__meta">Weldat Weldemichael · Review highlight</div>
+              </div>
+              <p class="review__text">“Great service, good place to get your hair cut.”</p>
+            </article>
+
+            <article class="review">
+              <div class="review__top">
+                <div class="review__stars">★★★★★</div>
+                <div class="review__meta">Kuban Da kidd · Review highlight</div>
+              </div>
+              <p class="review__text">“5 star service & best shop in the area!”</p>
+            </article>
+          </div>
+
+          <button class="slider__btn" id="nextReview" aria-label="Next review">›</button>
+        </div>
+
+        <div class="sliderDots" id="reviewDots" aria-label="Review navigation dots"></div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head">
+          <h2>Pricing</h2>
+          <p>Keep these as placeholders or replace with your real prices.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="priceCard">
+            <div class="priceCard__title">Classic Cut</div>
+            <div class="priceCard__price">$30</div>
+            <ul class="priceCard__list">
+              <li>Consultation + style</li>
+              <li>Clean finish</li>
+              <li>Optional enhancements</li>
+            </ul>
+          </article>
+
+          <article class="priceCard priceCard--featured">
+            <div class="priceCard__badge">Most Popular</div>
+            <div class="priceCard__title">Fade + Beard</div>
+            <div class="priceCard__price">$40</div>
+            <ul class="priceCard__list">
+              <li>Fade / taper</li>
+              <li>Beard shape + blend</li>
+              <li>Lineup & detail</li>
+            </ul>
+          </article>
+
+          <article class="priceCard">
+            <div class="priceCard__title">Kids Cut</div>
+            <div class="priceCard__price">$25</div>
+            <ul class="priceCard__list">
+              <li>Patient service</li>
+              <li>Clean lineup</li>
+              <li>Family-friendly vibe</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="section section--alt" id="book">
+      <div class="container book">
+        <div class="book__left">
+          <h2>Book your cut</h2>
+          <p>
+            Add your real booking link (Booksy, Square, Fresha, etc.) and phone number.
+            If you want walk-ins only, change this section to “Walk-ins Welcome”.
+          </p>
+
+          <div class="book__actions">
+            <!-- Replace href with your booking page -->
+            <a class="btn" href="#" onclick="return openBooking(event)">Book Online</a>
+
+            <!-- Replace tel with your real phone -->
+            <a class="btn btn--ghost" href="tel:+12145551234">Call: (214) 555-1234</a>
+          </div>
+
+          <div class="note">
+            <strong>Tip:</strong> Put your real booking link + phone + hours and this site is ready to publish.
+          </div>
+        </div>
+
+        <div class="book__right">
+          <div class="hours">
+            <div class="hours__head">
+              <div class="hours__icon">🕒</div>
+              <div>
+                <div class="hours__title">Shop Hours</div>
+                <div class="hours__sub">Edit to your real hours</div>
+              </div>
+            </div>
+            <div class="hours__grid">
+              <div class="hours__row"><span>Mon</span><span>10:00 AM – 7:00 PM</span></div>
+              <div class="hours__row"><span>Tue</span><span>10:00 AM – 7:00 PM</span></div>
+              <div class="hours__row"><span>Wed</span><span>10:00 AM – 7:00 PM</span></div>
+              <div class="hours__row"><span>Thu</span><span>10:00 AM – 7:00 PM</span></div>
+              <div class="hours__row"><span>Fri</span><span>10:00 AM – 8:00 PM</span></div>
+              <div class="hours__row"><span>Sat</span><span>9:00 AM – 8:00 PM</span></div>
+              <div class="hours__row"><span>Sun</span><span>12:00 PM – 6:00 PM</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="section" id="location">
+      <div class="container">
+        <div class="section__head">
+          <h2>Location</h2>
+          <p>Garland, TX — easy directions, easy parking (update details if needed).</p>
+        </div>
+
+        <div class="location">
+          <div class="location__card">
+            <h3>Visit Crown Barbershop</h3>
+            <p class="muted">
+              Replace this address with your exact shop address.  
+              Add your suite number if you have one.
+            </p>
+
+            <div class="info">
+              <div class="info__row">
+                <span class="info__label">Address</span>
+                <span class="info__value">Garland, TX (Add exact address)</span>
+              </div>
+              <div class="info__row">
+                <span class="info__label">Phone</span>
+                <span class="info__value"><a class="link" href="tel:+12145551234">(214) 555-1234</a></span>
+              </div>
+              <div class="info__row">
+                <span class="info__label">Rating</span>
+                <span class="info__value">5.0★ · 508 reviews</span>
+              </div>
+            </div>
+
+            <div class="location__actions">
+              <!-- Replace this with your real Google Maps link -->
+              <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Crown%20Barbershop%20Garland%20TX" target="_blank" rel="noopener">
+                Get Directions
+              </a>
+              <a class="btn btn--ghost" href="#book">Book Now</a>
+            </div>
+          </div>
+
+          <div class="mapWrap" aria-label="Map">
+            <iframe
+              title="Crown Barbershop map"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Crown%20Barbershop%20Garland%20TX&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <span class="brand__mark" aria-hidden="true">♛</span>
+          <div>
+            <div class="footer__name">Crown Barbershop</div>
+            <div class="footer__sub">Garland, TX · 5.0★ (508 reviews)</div>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <a href="#services">Services</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#location">Location</a>
+        </div>
+
+        <div class="footer__copy">
+          <span>© <span id="year"></span> Crown Barbershop. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
